@@ -1,11 +1,11 @@
-<p align="center">
+<!-- <p align="center">
 
   <h1 align="center">Personal Website</h1>
   <h5 align="center">HTML5 + CSS3 + JavaScript</h5>
   <hr/>
   <img src="https://raw.githubusercontent.com/LakshanRukantha/lakshanrukantha.github.io/master/img/website_preview.png" alt="webpage preview"/>
   <hr/>
-  
+
 <p align="center">
 
 ## Social buttons
@@ -47,4 +47,4 @@ _Repo info_
 
 ## License
 
-Released under [MIT](/LICENSE) by [@lakshanrukantha](https://github.com/lakshanrukantha).
+Released under [MIT](/LICENSE) by [@lakshanrukantha](https://github.com/lakshanrukantha). -->
