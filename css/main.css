@@ -953,6 +953,13 @@ h6 {
   margin-top: 50px;
 }
 
+.flex-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .social-media-set {
   position: relative;
   align-items: center;
@@ -987,11 +994,17 @@ h6 {
   margin-bottom: 10px;
 }
 
+.col3 .gmail {
+  background-image: url("/img/icon/gmail.png");
+}
 .col3 .github {
   background-image: url("/img/icon/github.png");
 }
 .col3 .stack-overflow {
   background-image: url("/img/icon/stack-overflow.png");
+}
+.col3 .leetcode {
+  background-image: url("/img/icon/LeetCode_logo.png");
 }
 .col3 .linkedin {
   background-image: url("/img/icon/linkedin.png");

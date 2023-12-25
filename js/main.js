@@ -881,42 +881,67 @@ form.addEventListener("submit", handleSubmit);
 
 const projectData = [
   {
-    title: "PassGen",
+    title: "MediChat",
+    subTitle: "A chat application designed specially for medical institutions",
+    thumbnail: "../img/projects/medichat.png",
+    description:
+      " MediChat is a chat application specially designed for Medical Institutions such as Hospitals. The application’s functionality allows medical professionals to collaboratively update and distribute relevant information through editable channels.",
+    techStack: ["React", "JavaScript", "CSS", "NodeJS", "MongoDB"],
+    githubURL: "https://github.com/Living-Hell/medi-chat",
+    deployURL: "https://medichat.netlify.app/",
+  },
+  {
+    title: "Quizza",
+    subTitle: "This is a Quiz app.",
+    thumbnail: "../img/projects/quizza.png",
+    description:
+      "This is a quiz app called Quizza where you can take a quiz from 25 different categories and 3 difficulty levels. This application allows you to challenge your knowledge and test your brain power to its limits!",
+    techStack: ["JavaScript", "HTML", "CSS"],
+    githubURL: "https://github.com/Living-Hell/Quizza",
+    deployURL: "https://quizzza.netlify.app/",
+  },
+  {
+    title: " Pathfinding Visualizer",
     subTitle:
-      "You can easily generate secure and random passwords using this simple tool.",
-    thumbnail: "../img/projects-default.jpg",
+      "Visualise different pathfinding algorithms like Dijkstra, A*, BFS, etc.",
+    thumbnail: "../img/projects/pathfinder_visualiser.png",
     description:
-      "PassGen is a Python CLI tool for generating secure, random passwords from the command line. It allows you to easily create strong and unique passwords for your accounts, with a variety of customization options. Simply enter a few commands and PassGen will do the rest, providing you with a secure password to use with confidence. Fast and efficient, PassGen is the perfect tool for anyone who needs to generate passwords on the fly.",
-    techStack: ["Python"],
-    srcURL: "https://github.com/LakshanRukantha/PassGen",
+      "This is an application which you can use to visualize pathfinding algorithms in a graph like Dijkstra, A*, Greedy Best First Search and Depth First Search using CSS animations.",
+    techStack: ["React", "JavaScript", "HTML", "CSS"],
+    githubURL: "https://github.com/Living-Hell/PathfindingVisualizer",
+    deployURL: "https://pathfinderr-visualiser.netlify.app/",
   },
   {
-    title: "CutLink",
-    subTitle: "Here you have full control over your links.",
-    thumbnail: "../img/thumbnails/cutlink-thumbnail.png",
+    title: "Blackjack",
+    subTitle: "A Blackjack game where you can play, bet and have fun! ",
+    thumbnail: "../img/projects/blackjack.png",
     description:
-      "CutLink is a modern and user-friendly web application built with React and Material UI. Our platform offers a complete solution for link shortening. With CutLink, you can create short, branded links that are easy to share. Try CutLink today and experience the power of a smarter link shortning platform!",
-    techStack: ["React", "MUI"],
-    srcURL: "https://cut-link.netlify.app/",
+      "This is a web application where you can play a simplified version of Blackjack game. The players can start with an amount and bet on each consecutive rounds to increase your total amount.",
+    techStack: ["JavaScript", "HTML", "CSS"],
+    githubURL: "https://github.com/Living-Hell/Blackjack",
+    deployURL: "https://lh-blackjack.netlify.app/",
   },
   {
-    title: "MindMate",
+    title: "The Blessed Bean",
     subTitle:
-      "Unlock the power of your mind with our AI-Driven mental health web application",
-    thumbnail: "../img/thumbnails/mindmate-thumbnail.png",
+      "An informatory website for the Coffee shop ’The Blessed Beans’ based out of Baker’s Street London. ",
+    thumbnail: "../img/projects/the_blessed_bean.png",
     description:
-      "MindMate is a web application that provides mental health solutions using artificial intelligence powered by OpenAI. It is designed to help individuals struggling with mental health issues to improve their well-being and overall quality of life. The app provides personalized and confidential support to users by analyzing their symptoms, emotions, and behavior. MindMate uses advanced algorithms to identify patterns in user data and provide them with tailored recommendations for managing their mental health.",
-    techStack: ["Next.js", "React", "Node.js"],
-    srcURL: "https://mind-mate.vercel.app/",
+      "This is a fully responsive website which gives information about an imaginary Coffee shop ’The Blessed Beans’ based out of Baker’s Street London. ",
+    techStack: ["PHP", "JavaScript", "HTML", "CSS"],
+    githubURL: "https://github.com/Living-Hell/The-Blessed-Bean",
+    deployURL: "https://the-blessed-beans.herokuapp.com/",
   },
   {
-    title: "GitTrack",
-    subTitle: "Gain insights and strengthen your GitHub connections",
-    thumbnail: "../img/thumbnails/gittrack-thumbnail.png",
+    title: "City Weather",
+    subTitle:
+      "A weather app that allows you to check the weather of your city.",
+    thumbnail: "../img/projects/city_weather.png",
     description:
-      "GitTrack - an innovative web application designed to empower GitHub users with powerful network analysis tools. With GitTrack, you can effortlessly track and analyze your followers, identifying those who are not reciprocating the follow. Take control of your GitHub presence, strengthen your connections, and optimize your network. Gain valuable insights and make informed decisions to build a strong and engaged community.",
-    techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
-    srcURL: "https://gittrack.vercel.app/",
+      "This is a simple React weather application that allows users to check the current weather conditions for a specific city. The app utilizes the OpenWeatherMap API to fetch real-time weather data.",
+    techStack: ["React", "JavaScript", "HTML", "CSS"],
+    githubURL: "https://github.com/Living-Hell/City-Weather",
+    deployURL: "https://lh-city-weather.netlify.app/",
   },
   {
     title: "Project Title",
@@ -926,7 +951,8 @@ const projectData = [
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi placeat magnam eveniet accusamus tenetur maxime aspernatur deleniti rerum praesentium ducimus minima facilis consectetur expedita, mollitia molestias qui dolorem quam laudantium. Repellendus sunt harum fugiat natus. dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
     techStack: ["Stack"],
-    srcURL: "",
+    githubURL: "",
+    deployURL: "",
   },
   {
     title: "Project Title",
@@ -936,27 +962,8 @@ const projectData = [
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi placeat magnam eveniet accusamus tenetur maxime aspernatur deleniti rerum praesentium ducimus minima facilis consectetur expedita, mollitia molestias qui dolorem quam laudantium. Repellendus sunt harum fugiat natus. dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
     techStack: ["Stack"],
-    srcURL: "",
-  },
-  {
-    title: "Project Title",
-    subTitle:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
-    thumbnail: "../img/projects-default.jpg",
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi placeat magnam eveniet accusamus tenetur maxime aspernatur deleniti rerum praesentium ducimus minima facilis consectetur expedita, mollitia molestias qui dolorem quam laudantium. Repellendus sunt harum fugiat natus. dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
-    techStack: ["Stack"],
-    srcURL: "",
-  },
-  {
-    title: "Project Title",
-    subTitle:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
-    thumbnail: "../img/projects-default.jpg",
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi placeat magnam eveniet accusamus tenetur maxime aspernatur deleniti rerum praesentium ducimus minima facilis consectetur expedita, mollitia molestias qui dolorem quam laudantium. Repellendus sunt harum fugiat natus. dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
-    techStack: ["Stack"],
-    srcURL: "",
+    githubURL: "",
+    deployURL: "",
   },
   // Add more objects for additional projectData here
 ];
@@ -987,8 +994,8 @@ function loadContent(projectData) {
        <div class='content'>{description}</div>
        <div class='technologies'>Tech Stack: ${techStackData}</div>
        <div class="card-buttons">
-          <a href="" target="_blank" class="card-btn" style="float: right; height: 2.35rem; color: #fff; background-color: #68d372; padding: .375rem .75rem; border-radius: .25rem;"><i class="fa-regular fa-file-code"></i>Source Code</a>
-          <a href="{srcURL}" target="_blank" class="card-btn" style="float: right; color: #fff; background-color: #68d372; padding: .375rem .75rem; border-radius: .25rem;"><i class="fa-solid fa-display"></i>View Demo</a>
+          <a href="{githubURL}" target="_blank" class="card-btn" style="float: right; height: 2.35rem; color: #fff; background-color: #68d372; padding: .375rem .75rem; border-radius: .25rem;"><i class="fa-regular fa-file-code"></i>Source Code</a>
+          <a href="{deployURL}" target="_blank" class="card-btn" style="float: right; color: #fff; background-color: #68d372; padding: .375rem .75rem; border-radius: .25rem;"><i class="fa-solid fa-display"></i>View Demo</a>
       </div>`,
       data
     );
