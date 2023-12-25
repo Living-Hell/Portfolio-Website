@@ -994,8 +994,8 @@ function loadContent(projectData) {
        <div class='content'>{description}</div>
        <div class='technologies'>Tech Stack: ${techStackData}</div>
        <div class="card-buttons">
-          <a href="{githubURL}" target="_blank" class="card-btn" style="float: right; height: 2.35rem; color: #fff; background-color: #68d372; padding: .375rem .75rem; border-radius: .25rem;"><i class="fa-regular fa-file-code"></i>Source Code</a>
-          <a href="{deployURL}" target="_blank" class="card-btn" style="float: right; color: #fff; background-color: #68d372; padding: .375rem .75rem; border-radius: .25rem;"><i class="fa-solid fa-display"></i>View Demo</a>
+          <a href="{githubURL}" target="_blank" class="card-btn" style="float: right; height: 2.35rem; color: #fff; background-color: #348ce0; padding: .375rem .75rem; border-radius: .25rem;"><i class="fa-regular fa-file-code"></i>Source Code</a>
+          <a href="{deployURL}" target="_blank" class="card-btn" style="float: right; color: #fff; background-color: #348ce0; padding: .375rem .75rem; border-radius: .25rem;"><i class="fa-solid fa-display"></i>View Demo</a>
       </div>`,
       data
     );

@@ -38,7 +38,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #68d372;
+  background: #348ce0;
   border-radius: 4px;
 }
 
@@ -59,13 +59,13 @@ a {
 }
 
 a:hover {
-  color: #68d372;
+  color: #348ce0;
 }
 
 nav .cv-download {
   color: #ffffff;
   border: none;
-  background-color: #68d372;
+  background-color: #348ce0;
   padding: 15px 20px;
   /* padding: 15px auto; */
 }
@@ -99,7 +99,7 @@ textarea:focus {
 }
 
 .btn-outline-success:hover {
-  background-color: #4ea156;
+  background-color: #1d74c6;
 }
 
 h1 {
@@ -120,7 +120,7 @@ h6 {
 }
 
 .green {
-  color: #68d372;
+  color: #348ce0;
   font-size: 30px;
   font-weight: 900;
 }
@@ -142,7 +142,7 @@ h6 {
 .navbar .nav-brand {
   position: absolute;
   top: 0;
-  background-color: #68d372;
+  background-color: #348ce0;
   display: inline-block;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
@@ -169,18 +169,18 @@ h6 {
 }
 
 .navbar li .nav-link:hover {
-  color: #68d372;
+  color: #348ce0;
 }
 
 .navbar li .active {
-  color: #68d372;
+  color: #348ce0;
 }
 
 .navbar .button {
   position: relative;
   float: right;
   color: white;
-  background-color: #68d372;
+  background-color: #348ce0;
   width: max-content;
   cursor: pointer;
 }
@@ -239,7 +239,7 @@ h6 {
 
 #nav-icon span:nth-child(2) {
   top: 10px;
-  background-color: #68d372;
+  background-color: #348ce0;
 }
 
 #nav-icon span:nth-child(3) {
@@ -302,7 +302,7 @@ h6 {
 
 #progress-bar {
   height: 5px;
-  background-color: #68d372;
+  background-color: #348ce0;
   width: 0%;
 }
 
@@ -314,8 +314,8 @@ h6 {
   font-size: 20px;
   font-family: "Koulen";
   letter-spacing: 1px;
-  color: #68d372 !important;
-  border: 2px solid #68d372;
+  color: #348ce0 !important;
+  border: 2px solid #348ce0;
   border-radius: 20px;
   box-shadow: 10px 10px 30px #1d1d1d50, -10px -10px 30px #27272750;
 }
@@ -348,7 +348,7 @@ h6 {
 }
 
 .section-title {
-  color: #68d372;
+  color: #348ce0;
   font-weight: bold;
   font-size: 20px;
   text-align: center;
@@ -393,7 +393,7 @@ h6 {
 }
 
 #intro-p:hover {
-  color: #68d372;
+  color: #348ce0;
   display: inline-block;
   animation: rubberBand;
   animation-duration: 1s;
@@ -416,14 +416,14 @@ h6 {
 }
 
 .btn-contact {
-  background-color: #68d37200 !important;
-  border: 2px solid #68d372;
+  background-color: #348ce000 !important;
+  border: 2px solid #348ce0;
   transition: background-color 0.2s ease-in-out;
   cursor: pointer;
 }
 
 .btn-contact:hover {
-  background-color: #68d372 !important;
+  background-color: #348ce0 !important;
 }
 
 .intro-btns {
@@ -446,7 +446,7 @@ h6 {
 
 .intro-p-url:hover {
   cursor: pointer;
-  color: #68d372 !important;
+  color: #348ce0 !important;
   text-decoration: underline;
   animation: rubberBand;
   animation-duration: 1s;
@@ -484,7 +484,7 @@ h6 {
 }
 
 #intro .scroll:hover {
-  color: #68d372;
+  color: #348ce0;
   transition: color 0.5s ease-in-out;
   animation: flash;
   animation-duration: 1s;
@@ -570,7 +570,7 @@ h6 {
   width: 100%;
   cursor: grab;
   margin-bottom: 25px;
-  border-left: 5px solid #68d372;
+  border-left: 5px solid #348ce0;
   border-radius: 8px;
 }
 
@@ -635,7 +635,7 @@ h6 {
 }
 
 #skills .container .div-card-item:hover #skills .container .div-card span {
-  color: #68d372;
+  color: #348ce0;
 }
 
 #skills .container .div-card .skill-level {
@@ -774,7 +774,7 @@ h6 {
 .timeline ul li {
   padding: 10px;
   background-color: #222222;
-  border: 2px solid #68d372;
+  border: 2px solid #348ce0;
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.5);
   text-align: left;
   color: white;
@@ -799,7 +799,7 @@ h6 {
   position: relative;
   color: #222222;
   margin-right: 5px;
-  -webkit-text-stroke: 1px #68d372;
+  -webkit-text-stroke: 1px #348ce0;
   font-family: "Font Awesome 5 Free";
   font-weight: 800;
 }
@@ -809,7 +809,7 @@ h6 {
   position: relative;
   color: #222222;
   margin-right: 5px;
-  -webkit-text-stroke: 1px #68d372;
+  -webkit-text-stroke: 1px #348ce0;
   font-family: "Font Awesome 5 Free";
   font-weight: 800;
 }
@@ -818,7 +818,7 @@ h6 {
   content: "\e56b";
   position: relative;
   color: #222222;
-  -webkit-text-stroke: 1px #68d372;
+  -webkit-text-stroke: 1px #348ce0;
   margin-right: 5px;
   font-family: "Font Awesome 5 Free";
   font-weight: 800;
@@ -839,7 +839,7 @@ h6 {
   content: "\f57e";
   position: relative;
   color: #222222;
-  -webkit-text-stroke: 1px #68d372;
+  -webkit-text-stroke: 1px #348ce0;
   margin-right: 5px;
   font-family: "Font Awesome 5 Free";
   font-weight: 800;
@@ -863,8 +863,8 @@ h6 {
 .timeline-content .date::before {
   content: "\f783";
   position: relative;
-  color: #68d37250;
-  -webkit-text-stroke: 1px #68d372;
+  color: #348ce050;
+  -webkit-text-stroke: 1px #348ce0;
   margin-right: 5px;
   font-family: "Font Awesome 5 Free";
   font-weight: 800;
@@ -895,7 +895,7 @@ h6 {
 
 .btn-send-message {
   color: #ffffff;
-  background-color: #68d372;
+  background-color: #348ce0;
   pointer-events: auto !important;
   padding: 8px 20px;
   cursor: pointer !important;
@@ -973,8 +973,8 @@ h6 {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  filter: invert(96%) sepia(75%) saturate(913%) hue-rotate(53deg)
-    brightness(89%) contrast(83%);
+  filter: invert(40%) sepia(100%) saturate(913%) hue-rotate(190deg)
+    brightness(100%) contrast(95%);
   border-radius: 50%;
   width: 30px;
   height: 30px;
@@ -1018,8 +1018,8 @@ h6 {
 
 #intro .button {
   color: white;
-  background-color: #68d372;
-  border: 2px solid #68d372;
+  background-color: #348ce0;
+  border: 2px solid #348ce0;
   padding: 8px 20px;
 }
 
@@ -1029,12 +1029,12 @@ h6 {
 }
 
 .swal-icon--success__ring {
-  border: 4px solid #68d372;
+  border: 4px solid #348ce0;
 }
 
 .swal-icon--success__line--long,
 .swal-icon--success__line--tip {
-  background-color: #68d372;
+  background-color: #348ce0;
 }
 
 .swal-icon--success::before,
@@ -1046,12 +1046,12 @@ h6 {
 .swal-button {
   padding: 8px;
   width: 80px;
-  background-color: #68d372;
+  background-color: #348ce0;
 }
 
 .swal-button:hover,
 .swal-button:active {
-  background-color: #68d372 !important;
+  background-color: #348ce0 !important;
 }
 
 footer {
@@ -1169,9 +1169,9 @@ footer .support ul li a:hover {
 }
 
 .footer-rights .copyright p a:hover {
-  color: #68d372;
+  color: #348ce0;
   text-decoration-line: underline;
-  text-decoration-color: #68d372;
+  text-decoration-color: #348ce0;
   text-decoration-style: wavy;
 }
 
@@ -1206,7 +1206,7 @@ footer .support ul li a:hover {
 }
 
 .to-top i {
-  color: #68d372;
+  color: #348ce0;
 }
 
 @media (max-width: 400px) {
@@ -1286,7 +1286,7 @@ footer .support ul li a:hover {
     width: 2px;
     height: 120px;
     display: block;
-    background-color: #68d372;
+    background-color: #348ce0;
     position: absolute;
     top: 0;
     left: 50%;
@@ -1348,7 +1348,7 @@ footer .support ul li a:hover {
     width: 2px;
     height: 100px;
     display: block;
-    background-color: #68d372;
+    background-color: #348ce0;
     position: absolute;
     top: 150px;
     left: 0;
@@ -1413,7 +1413,7 @@ footer .support ul li a:hover {
     transform: translateX(-50%);
     width: 2px;
     height: 104%;
-    background-color: #68d372;
+    background-color: #348ce0;
   }
 
   .timeline ul li {
@@ -1445,7 +1445,7 @@ footer .support ul li a:hover {
     width: 20px;
     margin: 0px 10px;
     border-radius: 50%;
-    border: 2px solid #68d372;
+    border: 2px solid #348ce0;
     background-color: #222222;
     top: 0px;
     transition: background-color 0.4s;
@@ -1458,8 +1458,8 @@ footer .support ul li a:hover {
     width: 20px;
     margin: 0px 10px;
     border-radius: 50%;
-    border: 2px solid #68d372;
-    background-color: #68d372;
+    border: 2px solid #348ce0;
+    background-color: #348ce0;
     bottom: -20px;
     right: -40px;
     transition: background-color 0.4s;
@@ -1497,13 +1497,13 @@ footer .support ul li a:hover {
   }
 
   .timeline ul li:hover::before {
-    background-color: #68d372;
+    background-color: #348ce0;
     scale: 120%;
   }
 
   .timeline ul .start:not(:hover)::after {
     pointer-events: none;
-    background-color: #68d372;
+    background-color: #348ce0;
   }
 
   #contact {
@@ -1610,7 +1610,7 @@ footer .support ul li a:hover {
   .navbar .nav-brand {
     position: relative;
     top: -10px;
-    background-color: #68d372;
+    background-color: #348ce0;
     display: inline-block;
     padding: 20px 10px 0px 10px;
     font-size: 2em;
@@ -1627,11 +1627,11 @@ footer .support ul li a:hover {
   }
 
   .navbar li .nav-link:hover {
-    color: #68d372 !important;
+    color: #348ce0 !important;
   }
 
   .js-scroll-trigger:hover {
-    background-color: #68d37210 !important;
+    background-color: #348ce010 !important;
     border-radius: 4px;
   }
 
@@ -1649,7 +1649,7 @@ footer .support ul li a:hover {
   }
 
   .navbar li .active {
-    color: #68d372;
+    color: #348ce0;
   }
 
   .navbar .navbar-toggler {
@@ -1704,7 +1704,7 @@ footer .support ul li a:hover {
   }
 
   .btn-contact:hover {
-    background-color: #68d37200 !important;
+    background-color: #348ce000 !important;
   }
 
   .contact-btn {
@@ -1716,7 +1716,7 @@ footer .support ul li a:hover {
     content: "";
     left: -1.5px !important;
     top: -1px !important;
-    background: #68d372;
+    background: #348ce0;
     transition-duration: 0.3s;
     z-index: -1;
     inset: 0px auto auto 0px;
@@ -1732,7 +1732,7 @@ footer .support ul li a:hover {
   }
 
   .hb-fill-right-bg:hover {
-    background: #68d372;
+    background: #348ce0;
     transition: all 0.3s ease 0s;
   }
 
@@ -1741,7 +1741,7 @@ footer .support ul li a:hover {
     width: 122px;
     height: 2px;
     display: block;
-    background-color: #68d372;
+    background-color: #348ce0;
     position: absolute;
     top: 115px;
     left: -140px;
@@ -1778,7 +1778,7 @@ footer .support ul li a:hover {
     width: 2px;
     height: 100px;
     display: block;
-    background-color: #68d372;
+    background-color: #348ce0;
     position: absolute;
     top: 150px;
     left: -50px !important;
@@ -1933,7 +1933,7 @@ footer .support ul li a:hover {
   }
 
   .green {
-    color: #68d372;
+    color: #348ce0;
     font-size: 3rem;
     font-weight: 900;
   }
@@ -1999,6 +1999,6 @@ footer .support ul li a:hover {
   }
 
   .to-top i {
-    color: #68d372;
+    color: #348ce0;
   }
 }
