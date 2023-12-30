@@ -944,15 +944,14 @@ const projectData = [
     deployURL: "https://lh-city-weather.netlify.app/",
   },
   {
-    title: "Project Title",
-    subTitle:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
-    thumbnail: "../img/projects-default.jpg",
+    title: "Lead Tracker",
+    subTitle: "A google chrome extension to save important URLs",
+    thumbnail: "../img/projects/lead_tracker.png",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi placeat magnam eveniet accusamus tenetur maxime aspernatur deleniti rerum praesentium ducimus minima facilis consectetur expedita, mollitia molestias qui dolorem quam laudantium. Repellendus sunt harum fugiat natus. dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
-    techStack: ["Stack"],
-    githubURL: "",
-    deployURL: "",
+      "A google chrome extension to save the important links/urls that you come across while surfing the internet.",
+    techStack: ["JavaScript", "HTML", "CSS"],
+    githubURL: "https://github.com/Living-Hell/lead-tracker",
+    deployURL: "https://lh-lead-tracker.netlify.app/",
   },
   {
     title: "Project Title",
