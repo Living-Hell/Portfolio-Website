@@ -1149,7 +1149,7 @@ function loadContent(projectData) {
 //Download Resume
 function downloadResume() {
   window.location.assign(
-    "https://drive.google.com/file/d/11QpPHjmshpUcBX0VDqbG6zGtybgjB2Ie/view?usp=sharing"
+    "https://drive.google.com/u/0/uc?id=11QpPHjmshpUcBX0VDqbG6zGtybgjB2Ie&export=download"
   );
 }
 
