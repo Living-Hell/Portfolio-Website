@@ -300,7 +300,7 @@
                     alt="projects-icon"
                   />
                   <h2>
-                    <span class="green counter">06</span
+                    <span class="green counter">07</span
                     ><span class="green">+</span> Projects Completed
                   </h2>
                 </div>
@@ -1006,7 +1006,7 @@
                   <div class="container">
                     <div class="copyright">
                       <p>
-                        Copyright &copy; 2023 | All rights reserved. Made with
+                        Copyright &copy; 2024 | All rights reserved. Made with
                         <span id="heart-icon">&#10084;</span> by
                         <a
                           href="https://shushant-kumar.netlify.app/"
@@ -1062,7 +1062,8 @@
       <script>
         const d = new Date();
         let month = d.getMonth();
-        if (month == 11) {
+        // console.log(month);
+        if (month <= 3 || month >= 9) {
           var snowflakes = new Snowflakes({ count: 20 });
         } else {
           null;

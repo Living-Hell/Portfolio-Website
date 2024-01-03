@@ -954,15 +954,15 @@ const projectData = [
     deployURL: "https://lh-lead-tracker.netlify.app/",
   },
   {
-    title: "Project Title",
+    title: "to-watch",
     subTitle:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
-    thumbnail: "../img/projects-default.jpg",
+      "A watchlist mobile application where you can add movies and shows into your to-watch list.",
+    thumbnail: "../img/projects/to-watch.png",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi placeat magnam eveniet accusamus tenetur maxime aspernatur deleniti rerum praesentium ducimus minima facilis consectetur expedita, mollitia molestias qui dolorem quam laudantium. Repellendus sunt harum fugiat natus. dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
-    techStack: ["Stack"],
-    githubURL: "",
-    deployURL: "",
+      "This is a watchlist application designed for mobile phones where you can add some shows/movies to your to-watch list and can come back to it later and pick something to watch in your free time.",
+    techStack: ["JavaScript", "HTML", "CSS", "Firebase"],
+    githubURL: "https://github.com/Living-Hell/to-watch",
+    deployURL: "https://lh-watchlist.netlify.app/",
   },
   // Add more objects for additional projectData here
 ];
