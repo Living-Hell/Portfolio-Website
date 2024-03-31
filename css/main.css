@@ -507,7 +507,7 @@ h6 {
 }
 
 #intro .img img {
-  width: 100%;
+  width: 110%;
   position: relative;
   -webkit-mask: url(../img/clip.png);
   mask: url(../img/clip.png);
@@ -728,9 +728,9 @@ h6 {
 #skills .container .div-card .english {
   background-image: url("../img/icon/lang-en.png");
 }
-/* #skills .container .div-card .french {
-  background-image: url("../img/icon/french.png");
-} */
+#skills .container .div-card .french {
+  background-image: url("../img/icon/french.jpg");
+}
 
 .card-buttons {
   display: flex;

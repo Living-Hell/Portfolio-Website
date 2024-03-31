@@ -780,7 +780,9 @@ setTimeout(() => {
   new Typewriter(".typing-text", {
     strings: [
       "Software Developer",
+      "Full-Stack Developer",
       "Frontend Developer",
+      "Backend Developer",
       "Competitive Programmer",
       "UI/UX Designer",
     ],
@@ -1149,7 +1151,7 @@ function loadContent(projectData) {
 //Download Resume
 function downloadResume() {
   window.location.assign(
-    "https://drive.google.com/u/0/uc?id=11QpPHjmshpUcBX0VDqbG6zGtybgjB2Ie&export=download"
+    "https://drive.usercontent.google.com/u/0/uc?id=1FMVFJxn0DCPuUFBeGIRuT414hkcankr2&export=download"
   );
 }
 
