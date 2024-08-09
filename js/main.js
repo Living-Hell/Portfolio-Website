@@ -1151,7 +1151,7 @@ function loadContent(projectData) {
 //Download Resume
 function downloadResume() {
   window.location.assign(
-    "https://drive.usercontent.google.com/u/0/uc?id=1pLNl8BQPk-SuAxJzd6YGzSMWSsmHMM9P&export=download"
+    "https://drive.usercontent.google.com/uc?id=18Oqnr7_z_pEs8rRugVzqgK2fWSfeRgv7&export=download"
   );
 }
 
